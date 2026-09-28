@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>West Walker — Attendance Tracker</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; color: #222; line-height: 1.45; }
+    h1 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.75rem; margin-bottom: 0.5rem; }
+    .summary { background: #f5f5f5; padding: 0.75rem 1rem; border-radius: 6px; }
+    .summary p { margin: 0.25rem 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; font-size: 0.95rem; }
+    th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #ddd; vertical-align: top; }
+    th { border-bottom: 2px solid #999; font-weight: 600; }
+    .note { margin-top: 1.75rem; font-size: 0.9rem; color: #444; }
+  </style>
+</head>
+<body>
+  <h1>West Walker — Attendance Tracker</h1>
+
+  <h2>Summary</h2>
+  <div class="summary">
+    <p><strong>Absences:</strong> 1</p>
+    <p><strong>Lates:</strong> 2</p>
+    <p><strong>Date range:</strong> Sep 10 – Sep 17, 2026</p>
+  </div>
+
+  <h2>Events</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Type</th>
+        <th>Periods affected</th>
+        <th>Source</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2026-09-10</td>
+        <td>Late</td>
+        <td>A</td>
+        <td>Woodroffe HS Late Message (woodroffehs@ocdsb.ca)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2026-09-14</td>
+        <td>Absent</td>
+        <td>A, C, D</td>
+        <td>Woodroffe HS Absence Message (woodroffehs@ocdsb.ca)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2026-09-17</td>
+        <td>Late</td>
+        <td>C</td>
+        <td>Woodroffe HS Late Message (woodroffehs@ocdsb.ca)</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="note">
+    Seeded from Gmail Woodroffe attendance emails. Update this file when new late/absence messages arrive.
+    School phone: 613-820-7186.
+  </p>
+</body>
+</html>
